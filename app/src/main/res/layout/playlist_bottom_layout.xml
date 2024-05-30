@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_player_back">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tvNotFound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/playlist_not_found_create_new_playlist"
+        android:layout_centerInParent="true"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

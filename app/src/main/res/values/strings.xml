@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AZIKEA music</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="media_player">Media Player</string>
+    <string name="create_playlist">Create PlayList</string>
+    <string name="start_listening">Start Listening</string>
+    <string name="download_music">Download Music</string>
+    <string name="download_audio">Download Audio</string>
+    <string name="album_not_found">Album not found!</string>
+    <string name="songs_against_album_not_found">Songs against album not found!</string>
+    <string name="add_to_playlist">Add to Playlist</string>
+    <string name="add_lyrics">Add Lyrics</string>
+    <string name="cancel">Cancel</string>
+    <string name="lyrics_not_available">Lyrics not available</string>
+    <string name="songs_not_found">Songs not found!</string>
+    <string name="playlist_name">Playlist name</string>
+    <string name="create_new_playlist">Create new Playlist</string>
+    <string name="playlist_not_found_create_new_playlist">Playlist not found. Create new Playlist</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.PlaylistsFragment">
+
+
+    <EditText
+        android:id="@+id/etPlayListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:minHeight="45dp"
+        android:ems="10"
+        android:padding="5dp"
+        android:inputType="text"
+        android:background="@drawable/field_back"
+        android:hint="@string/playlist_name" />
+
+    <Button
+        android:id="@+id/btnCreatePlayList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPlayListTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="@string/create_playlist" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPlayList"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnCreatePlayList"/>
+
+    <TextView
+        android:id="@+id/tvNotFound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/create_new_playlist"
+        android:layout_centerInParent="true"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>
